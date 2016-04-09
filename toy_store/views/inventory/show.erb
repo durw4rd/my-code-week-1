@@ -1,0 +1,10 @@
+<h1><%= @item[:name] %></h1>
+<p><strong><%= @item[:description] %></strong></p>
+<br>
+<p><strong>Left in stock:</strong> <%= @item[:quantity] %></p>
+<p><strong>Product ID:</strong> <%= @item[:id] %></p>
+
+<br>
+<a href="/inventory/<%= @i %>/edit">[Edit]</a>
+<a href="/inventory/<%= @i %>/delete">[Delete]</a>
+<a href="/inventory">[Back to overview]</a>

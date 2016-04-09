@@ -1,0 +1,18 @@
+#title {
+  background: #B28720;
+  font-size: 40px;
+  color: #535454;
+  padding: 40px;
+  text-align: center;
+}
+
+body {
+  font-family: 'deathrattlebb_reg', fantasy;
+  background: lightgray;
+  color: #BB2C0C;
+}
+
+button a {
+   text-decoration: none;
+   color: initial;
+}

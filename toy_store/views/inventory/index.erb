@@ -1,0 +1,11 @@
+<h2>Our fancy selection</h2>
+
+<% @toys.each_with_index do |item, i| %>
+  <h3><a href="/inventory/<%= i %>"><%= item[:name] %></a></h3>
+<% end %>
+
+<br>
+<a href="/inventory/new">[Add Item]</a>
+<a href="/inventory/searchw">[Search]</a>
+
+  
